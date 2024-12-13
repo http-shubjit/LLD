@@ -1,1 +1,3 @@
 The Strategy Pattern enables which Block of code will execute at runtime without altering the code structure of the class that uses it.
+
+in simple word by the help of Strategy Pattern we can execute any method of any class without using any connditon it mean user just give which method he want to call and the code will decide which method will execute without condition
