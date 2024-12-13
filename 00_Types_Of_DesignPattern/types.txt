@@ -1,0 +1,74 @@
+Why we need Design Pattern?
+
+Design patterns are proven solutions to common software design problems.We need design patterns because they provide standardized solutions to common software design problems. They make our code more scalable, maintainable, and efficient
+
+
+They are categorized into three main types based on their purpose:
+
+1. Creational Design Patterns
+Purpose: 
+Focuses on the process of object creation to make it more efficient and flexible.
+Why Use:
+To manage object creation mechanisms.
+To ensure code reusability and maintainability.
+To control instantiation to avoid repetitive or complex creation logic.
+Types of Creational Design Patterns:
+
+Singleton: Ensures a class has only one instance and provides a global point of access to it.
+
+Factory Method: Defines an interface for creating objects but allows subclasses to alter the type of objects that will be created.
+
+Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+Builder: Constructs a complex object step by step and separates the construction process from its 
+representation.
+
+Prototype: Creates new objects by copying an existing object, known as the prototype.
+
+
+2. Structural Design Patterns
+
+Structural Design Patterns focus on how objects and classes are composed to form larger structures.
+
+Purpose:
+Focus on how objects and classes are structured or composed to form larger, more efficient systems.
+Deal with organizing relationships between objects or classes.
+
+When to Use:
+When you need to combine objects or classes in a way that simplifies and optimizes code.
+When you want to make code more scalable and maintainable.
+
+Types of Structural Design Patterns:
+
+Adapter: Converts the interface of a class into another interface clients expect.
+Bridge: Separates an abstraction from its implementation so that the two can vary independently.
+Composite: Composes objects into tree structures to represent part-whole hierarchies, treating individual objects and compositions uniformly.
+Decorator: Adds new functionality to an object dynamically without altering its structure.
+Facade: Provides a unified interface to a set of interfaces in a subsystem, simplifying its usage.
+Flyweight: Reduces the memory usage by sharing as much data as possible with similar objects.
+Proxy: Provides a surrogate or placeholder for another object to control access to it.
+
+
+3. Behavioral Design Patterns
+
+Behavioral Design Patterns focus on how objects interact and communicate to perform tasks
+
+Purpose:
+Focus on how objects and classes are structured or composed to form larger, more efficient systems.
+Deal with organizing relationships between objects or classes.
+
+When to Use:
+When you need to combine objects or classes in a way that simplifies and optimizes code.
+When you want to make code more scalable and maintainable.
+
+Chain of Responsibility: Passes a request along a chain of handlers until it is handled.
+Command: Encapsulates a request as an object, thereby allowing parameterization and queuing of requests.
+Interpreter: Provides a way to evaluate language grammar or expressions.
+Iterator: Provides a way to access elements of a collection without exposing the underlying representation.
+Mediator: Defines an object that encapsulates how a set of objects interact.
+Memento: Captures and restores an object's internal state.
+Observer: Defines a one-to-many dependency so that when one object changes state, all dependents are notified.
+State: Allows an object to alter its behavior when its internal state changes.
+Strategy: Defines a family of algorithms, encapsulates them, and makes them interchangeable.
+Template Method: Defines the skeleton of an algorithm in a method, deferring some steps to subclasses.
+Visitor: Represents an operation to be performed on elements of an object structure.
