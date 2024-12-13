@@ -1,0 +1,1 @@
+The Strategy Pattern enables which Block of code will execute at runtime without altering the code structure of the class that uses it.
