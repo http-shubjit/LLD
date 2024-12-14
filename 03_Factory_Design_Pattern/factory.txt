@@ -1,0 +1,1 @@
+The Factory Method Pattern allows you to create objects through an interface or abstract class, hiding the details of concrete implementations.
