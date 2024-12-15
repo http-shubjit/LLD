@@ -1,0 +1,9 @@
+it is used to add new functionality to objects either statically or dynamically, without affecting the behavior of other objects from the same class
+
+
+
+objects1
+
+(objects1+objects2)= its perform like one objects
+
+
