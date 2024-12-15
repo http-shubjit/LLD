@@ -1,1 +1,1 @@
-The Factory Method Pattern allows you to create objects through an interface or abstract class, hiding the details of concrete implementations.
+The Factory Method Pattern allows you to create objects through an interface or abstract class, hiding the details of concrete implementations.for example, in a shape drawing application, a ShapeFactory can create different shapes like Circle, Rectangle, or Square based on user input without the client needing to know the details of each shape's instantiation

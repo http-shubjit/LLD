@@ -36,78 +36,77 @@
 
 // With Factory Design Pattern
 
-//  interface Shape {
-//     void draw();
-// }
+ interface Shape {
+    void draw();
+}
 
-// class Circle implements Shape {
-//     @Override
-//     public void draw() {
-//         System.out.println("Drawing a Circle");
-//     }
-// }
+class Circle implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Circle");
+    }
+}
 
-// class Rectangle implements Shape {
-//     @Override
-//     public void draw() {
-//         System.out.println("Drawing a Rectangle");
-//     }
-// }
+class Rectangle implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Rectangle");
+    }
+}
 
-// class Square implements Shape {
-//     @Override
-//     public void draw() {
-//         System.out.println("Drawing a Square");
-//     }
-// }
-
-
-
-// interface ShapeFactory {
-//     public Shape createShape();
-// }
-
-
-// class CircleFactory implements ShapeFactory {
-//     @Override
-//     public Shape createShape() {
-//         return new Circle();
-//     }
-// }
-
-// // Factory class for Rectangle
-// class RectangleFactory implements ShapeFactory {
-//     @Override
-//     public Shape createShape() {
-//         return new Rectangle();
-//     }
-// }
-
-// // Factory class for Square
-// class SquareFactory implements ShapeFactory {
-//     @Override
-//     public Shape createShape() {
-//         return new Square();
-//     }
-// }
+class Square implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Drawing a Square");
+    }
+}
 
 
 
-// public class Factory {
-//     public static void main(String[] args) {
-//         ShapeFactory circleFactory = new CircleFactory();
-//         ShapeFactory rectangleFactory = new RectangleFactory();
-//         ShapeFactory squareFactory = new SquareFactory();
+interface ShapeFactory {
+    public Shape createCircleShape();
+    
+    public Shape createRectangleShape();
+    
+    public Shape createSquareShape();
+}
 
-//         Shape shape1 = circleFactory.createShape();
-//         shape1.draw();
 
-//         Shape shape2 = rectangleFactory.createShape();
-//         shape2.draw();
+class createShapeFactory implements ShapeFactory {
+    @Override
+    public Shape createCircleShape() {
+        return new Circle();
+    }
+    
+    @Override
+    public Shape createRectangleShape() {
+        return new Rectangle();
+    }
 
-//         Shape shape3 = squareFactory.createShape();
-//         shape3.draw();
+    @Override
+    public Shape createSquareShape() {
+        return new Square();
+    }
+}
+
+
+
+
+
+public class Factory {
+    public static void main(String[] args) {
+        createShapeFactory createShape = new createShapeFactory();
+        
+
+        Shape shape1 = createShape.createCircleShape();
+        shape1.draw();
+
+        Shape shape2 = createShape.createRectangleShape();
+        shape2.draw();
+
+        Shape shape3 = createShape.createSquareShape();
+        shape3.draw();
 
         
-//     }
-// }
+    }
+}
