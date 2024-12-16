@@ -1,0 +1,39 @@
+Low-Level Design (LLD) is a subset of SYSTEM DESIGN that focuses on creating detailed specifications for how each component of a system will function. This includes defining algorithms, data structures, interfaces, and interactions between different modules. The goal is to provide developers with a clear and actionable blueprint that guides the coding process
+
+
+                          +---------------------+
+                          |     System Design   |
+                          +---------------------+
+                                   |
+                                   |
+                                   |
+                          +-------------------+
+                          | High-Level Design |
+                          +-------------------+
+                          | - Overview of     |
+                          |   System          |
+                          | - Requirements    |
+                          | - Functional vs   |
+                          |   Non-Functional  |
+                          | - Components      |
+                          | - SDLC (Design)   |
+                          | - Availability    |
+                          | - Consistency     |
+                          | - Reliability     |
+                          | - CAP Theorem     |
+                          | - API Gateway     |
+                          | - Load Balancer   |
+                          +-------------------+
+                                   |
+                                   |
+                                   |
+                         +---------------------+
+                         |    Low-Level Design |
+                         +---------------------+
+                         | - Detailed Module   |
+                         |   Specifications    |
+                         | - OOP Concepts      |
+                         | - Data Structures   |
+                         | - Design Patterns   |
+                         +---------------------+
+                 
