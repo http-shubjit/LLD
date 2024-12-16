@@ -1,6 +1,7 @@
 Low-Level Design (LLD) is a subset of SYSTEM DESIGN that focuses on creating detailed specifications for how each component of a system will function. This includes defining algorithms, data structures, interfaces, and interactions between different modules. The goal is to provide developers with a clear and actionable blueprint that guides the coding process
 
 
+
                           +---------------------+
                           |     System Design   |
                           +---------------------+
