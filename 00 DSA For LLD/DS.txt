@@ -1,0 +1,40 @@
+Fundamental Data Structures and Algorithms for System Design :-
+
+Arrays: An array is a collection of elements stored in contiguous memory locations. It provides fast and constant-time access to elements using an index.
+
+Linked Lists: A linked list is a linear data structure where elements are stored in nodes, and each node points to the next one in the sequence.
+
+Stacks: A stack is a Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end, called the top.
+
+Queues: A queue is a First-In-First-Out (FIFO) data structure where elements are added at the rear and removed from the front.
+
+Trees: Trees are hierarchical data structures consisting of nodes connected by edges. A tree has a root node and each node has zero or more child nodes.
+
+Graphs: A graph consists of vertices (nodes) and edges connecting them. It can be directed or undirected.
+
+Sorting Algorithms: Algorithms to arrange elements in a specific order.
+
+Searching Algorithms: Algorithms to find the position of an element in a collection.
+
+Hashing: Mapping data to a fixed-size array, allowing for efficient retrieval.
+
+Dynamic Programming: Solving complex problems by breaking them into simpler overlapping subproblems.
+
+
+Data Structures for Optimization of Systems :-
+
+Heaps and Priority Queues
+Description: Data structures that maintain the highest (or lowest) priority element efficiently.
+Application: Used in scheduling algorithm, Dijkstra's algorithm, and Huffman coding.
+
+Hash Tables
+Description: Allows for fast data retrieval using a key-value pair.
+Application: Efficient in implementing caches, dictionaries, and symbol tables.
+
+Trie
+Description: An ordered tree data structure used to store a dynamic set or associative array.
+Application: Used in IP routers for routing table lookup and autocomplete systems.
+
+Segment Trees
+Description: A tree data structure for storing intervals, or segments.
+Application: Useful in range query problems like finding the sum of elements in an array within a given range.
