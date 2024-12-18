@@ -1,3 +1,5 @@
+//AKA SinglyLinekdList
+
 
 class Node {
     int data;
@@ -10,11 +12,11 @@ class Node {
 }
 
 
-public class LinkedList {
+public class SinglyLinkedList {
 
     Node head;
     
-    LinkedList() {
+    SinglyLinkedList() {
         this.head = null;
     }
 
@@ -64,7 +66,7 @@ public class LinkedList {
 
 
     public static void main(String[] args) {
-       LinkedList linkedList = new LinkedList();
+    SinglyLinkedList linkedList = new SinglyLinkedList();
         
         // Adding elements to the linked list
         linkedList.add(1);
