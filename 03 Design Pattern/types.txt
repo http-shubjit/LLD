@@ -2,7 +2,6 @@ Why we need Design Pattern?
 
 Design patterns are proven solutions to common software design problems.We need design patterns because they provide standardized solutions to common software design problems. They make our code more scalable, maintainable, and efficient
 
-
 They are categorized into three main types based on their purpose:
 
 1. Creational Design Patterns
