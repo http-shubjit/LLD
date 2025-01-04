@@ -1,4 +1,6 @@
 package org.example.f_pattern;
 
-public class PaymentProvider {
+public interface PaymentProvider {
+    public void acceptPayment();
+
 }

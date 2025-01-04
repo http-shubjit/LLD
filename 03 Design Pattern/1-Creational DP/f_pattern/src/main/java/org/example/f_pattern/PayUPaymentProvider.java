@@ -1,4 +1,11 @@
 package org.example.f_pattern;
 
-public class PayUPaymentProvider {
+import org.springframework.stereotype.Service;
+
+@Service
+public class PayUPaymentProvider implements PaymentProvider {
+    @Override
+    public void acceptPayment() {
+        System.out.println("PayUPaymentProvider ");
+    }
 }
